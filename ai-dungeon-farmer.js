@@ -27,9 +27,9 @@ var USERAGENT = null;
 	} else {
 		console.log("Running in DevTools environment.");
 		HTML_SubText = $("[style=\"color: rgb(153, 153, 153); font-family: HelveticaNeue-Light, Helvetica, sans-serif, Classic, alegreya_regular; font-size: 20px;\"]");
-		HTML_WatchAdBtn = $$("[style=\"color: rgb(255, 255, 255); font-family: HelveticaNeue-Light, Helvetica, sans-serif, Classic, alegreya_regular; font-size: 24px; padding-right: 8px; padding-left: 8px; text-transform: uppercase;\"]").find((x) => x.innerText == "WATCH AN AD");
-		HTML_ActionText = $("[style=\"color: rgb(255, 255, 255); font-family: HelveticaNeue-Bold, Helvetica, sans-serif, Classic, alegreya_regular; font-size: 32px; margin-top: 64px; text-align: center;\"]");
-		if (!HTML_SubText || !HTML_WatchAdBtn) throw "Couldn't find a required HTML element.";
+		HTML_WatchAdBtn = $$("div[dir=auto]").find((x) => x.innerText == "WATCH AN AD");
+		HTML_ActionText = $$("div[dir=auto]").find((x) => x.innerText.startsWith("You have"));
+		if (!HTML_SubText || !HTML_WatchAdBtn || !HTML_ActionText) throw "Couldn't find a required HTML element.";
 		HTML_SubText.innerHTML = '<center>Welcome to AI Dungeon Farmer!<br>Made in a few boring hours by Alluseri<br><i><small>Ads were such a bad idea...<br>Now everyone gets to enjoy the ad-free experience.</small></i></center>';
 		HTML_SubText.parentElement.style.alignSelf = "center";
 		HTML_WatchAdBtn.innerText = "INITIALIZE FARMER";
