@@ -26,3 +26,6 @@ Replace `false` in `var EnableFastMode = false` to `true`. Less reliable, but sh
 No alternative way to get energy for Russian players was ever provided. Why would I use a VPN just to watch some ads?
 
 Now, let's enjoy the ad-free experience together.
+
+## Just a casual
+<img src="https://cdn.discordapp.com/attachments/690982341488672850/1008931517931737149/unknown.png">
