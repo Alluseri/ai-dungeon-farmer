@@ -1,6 +1,8 @@
 # ai-dungeon-farmer
 AI Dungeon Advertisement Bypass/Farmer
 
+Updated & tested to work under Windows.
+
 ## Usage
 [Visual Showcase](https://youtu.be/jJ3lZvjEwJk)
 1. Open the Actions screen
@@ -29,3 +31,5 @@ Now, let's enjoy the ad-free experience together.
 
 ## Just a casual
 <img src="https://cdn.discordapp.com/attachments/690982341488672850/1008931517931737149/unknown.png">
+<img src="https://cdn.discordapp.com/attachments/792614518903275530/1009172786616467546/unknown.png">
+Detected? Nice one, Latitude, that was obviously manual.
