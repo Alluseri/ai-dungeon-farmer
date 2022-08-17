@@ -6,7 +6,7 @@ Updated & tested to work under Windows.
 ## DISCLAIMER
 Using this script is BANNABLE. If I get enough requests, I will make a SAFE version of this script, that will ensure you will never get banned for using it.
 
-Contact me @ Alluseri#8558 for support.
+Support will be provided in GitHub Issues, Reddit & YouTube comments.
 
 ## Mobile?
 dorynode and PCAPdroid for capturing the sessionid and authtoken. Very unreliable, no support.
